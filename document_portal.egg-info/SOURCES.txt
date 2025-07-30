@@ -1,0 +1,16 @@
+README.md
+setup.py
+document_portal.egg-info/PKG-INFO
+document_portal.egg-info/SOURCES.txt
+document_portal.egg-info/dependency_links.txt
+document_portal.egg-info/top_level.txt
+exception/__init__.py
+logger/__init__.py
+prompts/__init__.py
+src/__init__.py
+src/document_compare/__init__.py
+src/docuyment_analyser/__init__.py
+src/multi_document_chat/__init__.py
+src/singledocchat/__init__.py
+static/__init__.py
+utils/__init__.py
