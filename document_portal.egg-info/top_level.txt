@@ -1,5 +1,6 @@
 exception
 logger
+models
 prompts
 src
 static
