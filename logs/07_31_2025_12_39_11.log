@@ -1,0 +1,10 @@
+{"session_id": "test_ingestion_analysis", "session_path": "C:\\Users\\Admin\\Documents\\llmops\\document_portal\\data\\document_analysis\\test_ingestion_analysis", "timestamp": "2025-07-31T07:09:13.710958Z", "level": "info", "event": "PDFHandler initialized"}
+{"file": "sample.pdf", "save_path": "C:\\Users\\Admin\\Documents\\llmops\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\sample.pdf", "session_id": "test_ingestion_analysis", "timestamp": "2025-07-31T07:09:13.713631Z", "level": "info", "event": "PDF saved successfully"}
+{"pdf_path": "C:\\Users\\Admin\\Documents\\llmops\\document_portal\\data\\document_analysis\\test_ingestion_analysis\\sample.pdf", "session_id": "test_ingestion_analysis", "pages": 11, "timestamp": "2025-07-31T07:09:13.784529Z", "level": "info", "event": "PDF read successfully"}
+{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-07-31T07:09:13.787531Z", "level": "info", "event": "Environment variables validated"}
+{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-07-31T07:09:13.791554Z", "level": "info", "event": "Configuration loaded successfully"}
+{"timestamp": "2025-07-31T07:09:13.792531Z", "level": "info", "event": "Loading LLM..."}
+{"provider": "google", "model": "gemini-2.0-flash", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-07-31T07:09:13.792531Z", "level": "info", "event": "Loading LLM"}
+{"timestamp": "2025-07-31T07:09:13.832206Z", "level": "info", "event": "DocumentAnalyzer initialized successfully"}
+{"timestamp": "2025-07-31T07:09:13.834209Z", "level": "info", "event": "Meta-data analysis chain initialized"}
+{"keys": ["Summary", "Title", "Author", "DateCreated", "LastModifiedDate", "Publisher", "Language", "PageCount", "SentimentTone"], "timestamp": "2025-07-31T07:09:19.123902Z", "level": "info", "event": "Metadata extraction successful"}

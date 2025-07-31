@@ -1,8 +1,0 @@
-{"available_keys": ["GOOGLE_API_KEY", "GROQ_API_KEY"], "timestamp": "2025-07-30T16:18:39.288145Z", "level": "info", "event": "Environment variables validated"}
-{"config_keys": ["faiss_db", "embedding_model", "retriver", "llm"], "timestamp": "2025-07-30T16:18:39.292335Z", "level": "info", "event": "Configuration loaded successfully"}
-{"timestamp": "2025-07-30T16:18:39.292335Z", "level": "info", "event": "Loading embedding model..."}
-{"timestamp": "2025-07-30T16:18:39.924777Z", "level": "info", "event": "Loading LLM..."}
-{"provider": "groq", "model": "deepseek-r1-distill-llama-70b", "temperature": 0, "max_tokens": 2048, "timestamp": "2025-07-30T16:18:39.924777Z", "level": "info", "event": "Loading LLM"}
-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
-Retrying request to /openai/v1/chat/completions in 0.435408 seconds
-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
